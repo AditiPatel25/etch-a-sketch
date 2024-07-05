@@ -2,13 +2,17 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E1FAF9;
 }
 
 .grid-container {
     width: 500px;
     height: 500px;
     margin: auto;
-    padding-top: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:rgb(247, 235, 217);
 }
 
 .row {
@@ -24,8 +28,15 @@ body {
     margin-top: 15px;
 }
 
-.size-button {
+button {
+    font-family: inherit;
+    margin: 5px;
+    margin-bottom: 50px;
+    background-color: rgb(247, 235, 217);;
+    padding: 5px;
+    border-radius: 5px;
+}
 
-    
-
+button, .curSize {
+    font-size: 16px;
 }
