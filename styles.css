@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .grid-container {
-    margin-top: 100px;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
 }
 
 .row {
@@ -18,4 +18,14 @@ body {
 .gridItem {
     border: #444242 solid 1px;
     box-sizing: border-box;
+}
+
+.curSize {
+    margin-top: 15px;
+}
+
+.size-button {
+
+    
+
 }
